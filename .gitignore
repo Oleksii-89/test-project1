@@ -1,0 +1,19 @@
+# node_modules — папка с зависимостями, не нужно коммитить
+node_modules/
+
+# логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# конфиги редакторов и ОС (по желанию)
+.vscode/
+.DS_Store
+Thumbs.db
+
+# билд или временные файлы
+dist/
+build/
+
+# файлы с секретами или переменными окружения (если есть)
+.env
